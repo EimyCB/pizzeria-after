@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../resources/favicon.ico" type="image/x-icon">
+    <!-- LETRAS DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>29295 - Contactp</title>
+</head>
+<body>
+    <header> <!-- ENCABEZADO -->
+        <nav class="header__nav"> 
+            <img class="header__logo" src="../resources/favicon.ico">
+            <ul class="header__lista">
+                <li class="header__item"><a href="../index.html">Inicio</a></li>
+                <li class="header__item"><a href="contacto.html">Contacto</a></li>
+                <li class="header__item"><a href="productos.html">Productos</a></li>
+                <li class="header__item"><a href="membresia.html">Membresia</a></li>
+                <li class="header__item"><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="titulo-verde">CONTACTO</h1>
+            <p>Impedit quibusdam maiores esse? Nam, dignissimos! Fugiat a quia asperiores rerum omnis, eveniet laborum distinctio corporis dolor dolorem dicta odio repellat! Alias.</p>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ratione provident suscipit cumque, iste sapiente vel alias sint aut odit repellendus! Commodi fuga excepturi totam praesentium. Fugiat nihil ullam id!</p>
+                <span>Hola</span> 
+            </div>
+            <span> Como estan</span>
+        </section>
+        <form method="post">
+            <div class="form__nombre">
+                <label for="nombre">Nombre</label><!-- Muestra la palabra antes del input -->
+                <input name="nombre"> <!-- obtener informacion del usuario en una sola linea -->
+            </div>
+            <div class="form__email">
+                <label>Email</label>
+                <input>
+            </div>
+            <div class="form__textarea">
+            <label>Deja tu comentario</label>
+            <textarea></textarea> <!-- Informacion que amerite mas de una linea NUNCA infromacion sensible -->
+            </div>
+            <div class="form__checkbox">
+                <input type="radio" name="remera_roja" value="color de remera rojo">
+                <label>Remera Roja</label>
+                <input type="checkbox" name="remera_verde" value="color de remera verde">
+                <label>Remera Roja</label>
+                <input type="checkbox" name="remera_azul" value="color de remera azul">
+                <label>Remera Roja</label>
+                <input type="checkbox" name="remera_violeta" value="color de remera violeta">
+                <label>Remera Roja</label>
+            </div>
+            <div>
+                <select name="talles">
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Borrar Formulario">
+            <input type="button" value="Derp">
+            
+        </form>
+    </main>
+    <!-- Pie de pagina -->
+    <footer> 
+        <div class="footer__indice">
+            <h4>Navegación</h4>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="membresia.html">Membresia</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer__mapa">
+            <iframe class="size__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26280.465807104712!2d-58.43799715122069!3d-34.57739323289167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5b3ff83de4d%3A0x6b6c054c69b2d44a!2sLago%20de%20Regatas!5e0!3m2!1ses-419!2sar!4v1656972559259!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__redes">
+            <img class="footer__iconos" src="../resources/facebook-square-brands.svg">
+            <img class="footer__iconos" src="../resources/instagram-brands.svg">
+            <img class="footer__iconos" src="../resources/tiktok-brands.svg">
+        </div>
+        <span class="footer__derechos">29295 (c) Todos los derechos reservados desde 2022</span>
+    </footer>
+</body>
+</html>
