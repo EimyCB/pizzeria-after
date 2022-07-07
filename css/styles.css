@@ -229,8 +229,8 @@ div {
 
 button {
 /*     background-color: #049efc; */
-    background-image: linear-gradient(#56b1e9, #049efc);
-    border: #049efc solid 1px;
+    background-image: linear-gradient(#56b1e9, #d304fc);
+    border: #e704fc solid 1px;
     border-radius: 15px;  
     color: white;
     padding: 10px;  
