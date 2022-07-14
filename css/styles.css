@@ -26,9 +26,8 @@ ul {
 }
 
 /* HEADER */
-header {
-    background-color: rgb(255, 91, 167);
-    height: 70px;
+.header {
+    background-color: rgb(25, 167, 255);
 }
 
 .header__logo {
@@ -66,7 +65,6 @@ header {
 }
 
 div {
-    font-size: 48px;
 }
 
 .lista__titulo {
@@ -326,7 +324,10 @@ button:hover {
     grid-column: 3/4;
     grid-row: 1/2;
 }
-
+.ejemplo {
+    background-color: #56b1e9;
+    border: 2px solid  #d304fc;
+}
 
 /* h3{
     display: inline-block;
@@ -469,6 +470,10 @@ h4 {
     }
 }
 
+
+.carrousel__altura {
+    height: 500px;
+}
 /* MEDIA DE CELULAR 
 99.9% SIEMPRE DEBE HABER UNA SOLA COLUMNA
 0.1% son galerias cuadriculadas que pueden tener hasta 3 columnas*/
@@ -601,6 +606,9 @@ h4 {
     }
     .emiliano {
         flex-wrap: wrap;
+    }
+    .carrousel__altura {
+        height: 300px;
     }
 }
 
