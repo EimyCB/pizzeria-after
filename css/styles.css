@@ -76,7 +76,9 @@ div {
     margin: 20px;
 }
 
-
+.card-img-top {
+    height: 250px;
+}
 
 .productos__grid {
     display: grid;
@@ -226,17 +228,19 @@ div {
 }
 
 button {
-/*     background-color: #049efc; */
-    background-image: linear-gradient(#56b1e9, #d304fc);
-    border: #e704fc solid 1px;
+    background-image: linear-gradient(100deg, #049efc, #56b1e9 );
+    border: #049efc solid 1px;
     border-radius: 15px;  
     color: white;
     padding: 10px;  
 }
 
+.btn {
+    color:white;
+}
+
 button:hover {
     background-image: linear-gradient(100deg, #049efc, #56b1e9 );
-    /* transform: translate(10px, 10px); este es para mover el elemento*/
     transform: scale(1.05,1.05);
     transition: all 1s;
 } 
@@ -245,7 +249,7 @@ button:hover {
     width: 35px;
 }
 
-.card {
+.card__membresia {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -470,6 +474,13 @@ h4 {
     }
 }
 
+.nav-link {
+    color:white;
+}
+
+.active {
+    color:rgba(20, 42, 101);
+}
 
 .carrousel__altura {
     height: 500px;
@@ -547,11 +558,17 @@ h4 {
         margin: 10px;
     }
 
-    button {
+    .ocultar {
+        display: none;
+    }
+
+/*     button {
         width: 300px;
         height: 70px;  
         font-size: 20px; 
-    }
+} */
+
+
 /* MODIFICO PRODUCTOS */
     .productos__grid {
         height: 200vh;
