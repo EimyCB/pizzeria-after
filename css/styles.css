@@ -64,16 +64,17 @@ ul {
     transition: all 0.5s;
 }
 
-div {
+.main__tarjetas article:first-child{
+    background-color: #e9e456;
 }
+
 
 .lista__titulo {
     color: green;
 }
 
-
-.form__nombre{
-    margin: 20px;
+input:focus {
+    font-size: 70px;
 }
 
 .card-img-top {
@@ -417,6 +418,10 @@ a {
     text-decoration: none;
     color: lightgray;
 }
+
+a:visited {
+    color:#d304fc;
+}
 h4 {
     font-size: 20px;
 }
@@ -478,12 +483,42 @@ h4 {
     color:white;
 }
 
+.nav-item::before {
+    content: " " ;
+    display: block;
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    border-bottom: 5px solid #ffa411;
+}
+
+.nav-item:hover::before {
+    content: " " ;
+    display: block;
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    border-bottom: 5px solid #ffa411;
+    transition: all 1s;
+}
+
 .active {
     color:rgba(20, 42, 101);
 }
 
 .carrousel__altura {
     height: 500px;
+}
+
+p:hover::first-line {
+    font-size: 30px;
+    color:#d304fc;
+}
+
+p::selection {
+    background-color: #ffa411;
 }
 /* MEDIA DE CELULAR 
 99.9% SIEMPRE DEBE HABER UNA SOLA COLUMNA
