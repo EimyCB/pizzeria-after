@@ -1,0 +1,41 @@
+/* FOOTER */
+footer {
+    display: grid;
+    grid-template-areas: "indice mapa redes"
+                        "indice mapa derechos";
+    background-color: $color-principal;
+    padding: 24px;
+
+    .footer {
+        &__indice {
+            grid-area: indice;
+        }
+        
+        &__mapa {
+            grid-area: mapa; 
+            display: flex;
+            justify-content: center;
+        }
+        &__redes {
+            grid-area: redes;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        &__derechos {
+            grid-area: derechos;
+        }
+        
+        &__iconos {
+            width: 70px;
+            height: 70px;
+            margin: 12px;
+        }
+        
+        &__indice ul li{
+            font-size: 16px;
+            padding-bottom: 12px;
+        }
+    }
+}

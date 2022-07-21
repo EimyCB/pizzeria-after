@@ -1,0 +1,31 @@
+.nav-link {
+    color:white;
+}
+
+.nav-item {
+    display: inline-block;
+}
+.nav-item::before {
+    content: " " ;
+    display: block;
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    border-bottom: 5px solid #ffa411;
+}
+
+.nav-item:hover::before {
+    content: " " ;
+    display: block;
+    width: fit-content;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    border-bottom: 5px solid #ffa411;
+    transition: all 1s;
+}
+
+.active {
+    color:rgb(20, 42, 101);
+}
